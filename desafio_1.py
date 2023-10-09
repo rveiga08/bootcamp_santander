@@ -34,7 +34,7 @@ def generate_ai_news(user):
       },
       {
           "role": "user",
-          "content": f"Crie uma mensagem para {user['name']} com dicas e opções de investimentos variados. (máximo de 100 caracteres)"
+          "content": f"Crie uma mensagem para {user['name']} com dicas e opções de investimentos variados conforme o valor{user['limit']} disponivel na conta do usuario. (máximo de 100 caracteres)"
       }
     ]
   )
